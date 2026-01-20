@@ -1,9 +1,15 @@
 //WiFi Car (ESP32-CAM Rover)//
+
+
 //Live Video • Web Control • Remote Navigation//
+
+
 
 //Overview:
 -->A WiFi-controlled robotic rover with live video streaming, designed to explore remote or unsafe environments.
 -->The project demonstrates embedded networking, real-time streaming, and motor control using a single ESP32-CAM module.
+
+
 
 //Features:
 -->Live camera feed via browser
@@ -11,17 +17,22 @@
 -->Forward / Back / Left / Right motion
 -->Compact and low-cost rover design
 
+
+
 //Hardware Used:
 -->ESP32-CAM
 -->L298N Motor Driver
 -->DC Motors & Chassis
 -->Battery Pack
 
-//Software Stack
 
+
+//Software Stack
 -->Arduino framework
 -->ESP32 Web Server
 -->HTML/CSS/JS-based control panel
+
+
 
 //System Architecture
 -->ESP32-CAM hosts a local web server
@@ -30,10 +41,15 @@
 -->Motor driver executes movement
 -->Camera stream provides visual feedback
 
+
+
+
 //Why This Project Matters
 Demonstrates:
 -->Real-time human–machine interaction
 -->Multi-domain integration (networking + robotics)
+
+
 
 //Limitations & Challenges
 -->Limited FPS due to ESP32-CAM constraints
